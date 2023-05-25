@@ -21,7 +21,7 @@ struct listint_s *next;
 /*Functions print_array and print_list*/
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
-
+void insertion_sort_list(listint_t **list);
 /*Prototypes in progress of our functions*/
 void bubble_sort(int *array, size_t size);
 
